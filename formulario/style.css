@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+#container-form-img {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    background: linear-gradient(68.15deg, #000 16.62%, #0c1a26 85.61%);
+    background-attachment: fixed;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+form {
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#titulo {
+    font-family: monospace;
+    color: #fa284d;
+    margin-bottom: 3%;
+    text-shadow: 2px 2px 5px #fa284e75;
+    font-size: 2em;
+}
+
+#subtitulo {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0,2em;
+    color: #0a3459;
+    display: block;
+    font-size: 18px;
+}
+
+.campo .devs {
+    color: #401019;
+}
+
+#senioridade {
+    color: #0a3459;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #401019;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select {
+    font-size: 16px;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: rgba(0, 0, 0, 0.11);
+}
+
+.botao {
+    display: block;
+    font-size: 1em;
+    background: #0a3459;
+    border: 0;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background-color: #092e4e;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.grupo > #check > label{
+    color: #401019;
+    font-size: 1.2em;
+}
+
+
+#check {
+    display: inline-block;
+}
+
+#check strong {
+    color: #0a3459;
+    font-size: 18px;
+}
+
+img {
+    border-right: 5px solid #fa284d;
+    border-left: 5px solid #fa284d;
+    height: 100vh;
+    opacity: 70%;
+}

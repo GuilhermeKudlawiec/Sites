@@ -1,0 +1,10 @@
+Paleta de Cores:
+
+#401019 - vinho
+#fa284d - pink
+#0a3459 - azul claro
+#0c1a26 - azul escuro
+#0b0d0c - preto
+
+
+
