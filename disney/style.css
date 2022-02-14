@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    outline: 0px;
 }
 
 body {
@@ -353,39 +354,3 @@ footer #container_p2 {
 }
 
 /*RESPONSIVIDADE*/
-
-@media (max-width: 1250px) {
-    #secao1 > #img_destaque {
-        background-image: url(imagens/sections/secao1/img_dest_menor.jpg);
-        background-size: contain;
-        padding-top: 50%;
-    }
-
-    #secao1 > #img_destaque > #container_caixainf {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        padding-right: 50px;
-        padding-left: 50px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 1199px) {
-    #container {
-        display: none;
-    }
-}
-
-@media (max-width: 750px) {
-    #secao1 > #img_destaque {
-        background-image: url(imagens/sections/secao1/img_dest_menor.jpg);
-        background-size: contain;
-    }
-}
-
-@media (max-width: 700px) {
-    main img {
-        max-width: 450px;
-    }
-}
