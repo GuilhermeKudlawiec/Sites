@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /*1rem vale 10px*/
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6rem;
+}
+
+/*=======
+HEADER
+=========*/
+
+header {
+    background-color: #111111;
+    padding: 20px;
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 40px;
+}
+
+header div {
+    display: flex;
+    gap: 10px;
+}
+
+#lista-dos-links {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.links, .btn {
+    border: none;
+    border-radius: 12px;
+    color: #f9f9f9;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 9px 15px;
+    text-decoration: none;
+}
+
+#btn1 {
+    background-color: #282828;
+}
+
+#btn2 {
+    background-color: #C5993F;
+    color: #111111;
+}
+
+/*=======
+MAIN
+=========*/
