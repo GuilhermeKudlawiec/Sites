@@ -70,7 +70,6 @@ header div {
     background-color: #242424;
 }
 
-
 #btn-mobile {
     display: none;
 }
@@ -144,7 +143,7 @@ strong {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    height: 65vh;
+    height: 68vh;
     padding: 4.2rem 0px 0px 0px;
     width: 100%;
 }
@@ -172,7 +171,6 @@ strong {
     color: #fff;
 }
 
-
 /*=======
 RESPONSIVIDADE
 =========*/
@@ -185,6 +183,10 @@ RESPONSIVIDADE
     
     .container-destaque {
         align-items: flex-end;
+    }
+
+    #caixa-de-informacao1 {
+        border-bottom: none;
     }
 
     #caixa-de-informacao1,
@@ -217,7 +219,7 @@ RESPONSIVIDADE
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 12vh;
+        top: 10vh;
         right: 0;
         height: 92vh;
         width: 100vw;
@@ -239,8 +241,19 @@ RESPONSIVIDADE
     #container-card-nivel1 {
         background-position: center top;
     }
-} 
+}
 
+@media (max-width: 630px) {
+    #caixa-de-informacao1 {
+        border-right: 0px;
+    }
+}
+
+@media (max-width: 620px) {
+    #caixa-de-informacao2 {
+        border-right: 0px;
+    }
+}
 
 @media (max-width: 600px) {
     .container-destaque {
@@ -265,9 +278,13 @@ RESPONSIVIDADE
 }
 
 @media (max-width: 323px) {
+    
+    .container-destaque {
+        height: 100vh;
+    }
+    
     #caixa-de-informacao1 {
-        padding-bottom: 3.2rem;
+        padding: 10px;
         height: 250px;
-        
     }
 }
