@@ -13,7 +13,6 @@ html {
 
 body {
     font-family: 'Kanit', sans-serif;
-    font-size: 1.6rem;
 }
 
 /*=======
@@ -50,6 +49,7 @@ header div {
 .links, .btn {
     border: none;
     border-radius: 12px;
+    cursor: pointer;
     color: #f9f9f9;
     font-size: 1.3rem;
     font-weight: 600;
@@ -58,15 +58,203 @@ header div {
     text-decoration: none;
 }
 
-#btn1 {
+.links:hover {
     background-color: #282828;
 }
 
+#btn1, #btn-mobile {
+    background-color: #282828;
+}
+
+#btn1:hover {
+    background-color: #242424;
+}
+
+
+#btn-mobile {
+    display: none;
+}
+
+#btn-mobile:hover {
+    background-color: #242424;
+}
+
 #btn2 {
-    background-color: #C5993F;
+    background-color: #F2CB57;
     color: #111111;
+}
+
+#btn2:hover {
+    background-color: #f0c74c;
 }
 
 /*=======
 MAIN
 =========*/
+
+.container-destaque {
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 5px solid #fff;
+    display: flex;
+    background-image: url('imagens/imagem-destaque.jpeg');
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 89.1vh;
+    width: 100%;
+}
+
+
+#caixa-de-informacao1 {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 1.8rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+#caixa-de-informacao1 h1 {
+    color: #F2CB57;
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 5rem;
+}
+
+#caixa-de-informacao1 p {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 3.2rem;
+    margin-top: 20px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+#container-card-nivel1 {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url('imagens/jinx-se-perguntando.jpeg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    height: 65vh;
+    padding: 4.2rem 0px 0px 0px;
+    width: 100%;
+}
+
+#caixa-de-informacao2 {
+    max-width: 600px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 1.2rem;
+    width: 100%;
+}
+
+#caixa-de-informacao2 > h2 {
+    color: #F2CB57;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+#caixa-de-informacao2 > p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+/*=======
+RESPONSIVIDADE
+=========*/
+
+@media (max-width: 1260px) {
+    
+    html {
+        font-size: 56%;
+    }
+    
+    .container-destaque {
+        align-items: flex-end;
+    }
+
+    #caixa-de-informacao1,
+    #caixa-de-informacao2 {
+        background-color: rgba(0, 0, 0, 0.918);
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    
+    html {
+        font-size: 50%;
+    }
+    
+    #lista-dos-links {
+        display: none;
+    }
+    
+    #btn-mobile {
+        display: inline-block;
+    }
+
+    #lista-dos-links.on {
+        align-items: center;
+        background-color: #111111;
+        flex-direction: column;
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        height: 92vh;
+        width: 100vw;
+    }
+
+    .links {
+        font-size: 2.8rem;
+    }
+
+}
+
+@media (max-width: 785px) {
+    .container-destaque {
+        background-position: center right;
+    }
+}
+
+@media (max-width: 646px) {
+    #container-card-nivel1 {
+        background-position: center top;
+    }
+} 
+
+
+@media (max-width: 600px) {
+    .container-destaque {
+        background-position: center center;
+        background-image: url("imagens/imagem-destaque-pequena.jpeg");
+    }
+}
+
+@media (max-width: 511px) {
+    html {
+        font-size: 42%;
+    }
+
+    #btn1,
+    #btn2 {
+        display: none;
+    }
+}
