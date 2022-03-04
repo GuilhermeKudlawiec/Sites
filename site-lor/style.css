@@ -200,7 +200,7 @@ RESPONSIVIDADE
 @media (max-width: 1000px) {
     
     html {
-        font-size: 52%;
+        font-size: 51%;
     }
     
     #lista-dos-links {
@@ -228,18 +228,21 @@ RESPONSIVIDADE
     .links {
         font-size: 2.8rem;
     }
-
 }
 
-@media (max-width: 785px) {
+@media (max-width: 913px) {
     .container-destaque {
-        background-position: center right;
+        background-image: url('imagens/imagem-destaque-pequena.jpeg');
+        background-position: left top;
     }
-}
 
-@media (max-width: 646px) {
-    #container-card-nivel1 {
-        background-position: center top;
+
+    #caixa-de-informacao1 {
+        padding: 10px;
+    }
+
+    #caixa-de-informacao1 h1 {
+        font-size: 3.3rem;
     }
 }
 
@@ -255,16 +258,15 @@ RESPONSIVIDADE
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 534px) {
     .container-destaque {
-        background-position: center center;
-        background-image: url("imagens/imagem-destaque-pequena.jpeg");
+        background-position: top center;
     }
 }
 
 @media (max-width: 511px) {
     html {
-        font-size: 42%;
+        font-size: 43%;
     }
 
     #btn1,
@@ -272,19 +274,12 @@ RESPONSIVIDADE
         display: none;
     }
 
-    #caixa-de-informacao1 h1 {
-        font-size: 3.3rem;
-    }
 }
 
 @media (max-width: 323px) {
     
-    .container-destaque {
-        height: 100vh;
-    }
-    
     #caixa-de-informacao1 {
         padding: 10px;
-        height: 250px;
+        height: 255px;
     }
 }
