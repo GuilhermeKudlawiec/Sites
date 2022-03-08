@@ -137,13 +137,14 @@ strong {
 
 #container-card-nivel1 {
     align-items: flex-end;
+    border-bottom: 5px solid #fff;
     display: flex;
     justify-content: flex-start;
     background-image: url('imagens/jinx-se-perguntando.jpeg');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    height: 68vh;
+    height: 75vh;
     padding: 4.2rem 0px 0px 0px;
     width: 100%;
 }
@@ -194,13 +195,17 @@ RESPONSIVIDADE
         background-color: rgba(0, 0, 0, 0.918);
         max-width: 600px;
     }
+
+    #container-card-nivel1 {
+        background-position: center center;
+    }
 }
 
 
 @media (max-width: 1000px) {
     
     html {
-        font-size: 51%;
+        font-size: 50%;
     }
     
     #lista-dos-links {
@@ -253,6 +258,7 @@ RESPONSIVIDADE
 }
 
 @media (max-width: 620px) {
+
     #caixa-de-informacao2 {
         border-right: 0px;
     }
@@ -274,6 +280,12 @@ RESPONSIVIDADE
         display: none;
     }
 
+}
+
+@media (max-width: 451px) {
+    #container-card-nivel1 {
+        background-image: url('imagens/jinx-se-perguntando-pequena.jpeg');
+    }
 }
 
 @media (max-width: 323px) {
