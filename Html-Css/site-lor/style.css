@@ -154,7 +154,6 @@ strong {
     max-width: 600px;
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.800);
     padding: 1.2rem;
     width: 100%;
@@ -172,6 +171,11 @@ strong {
     font-weight: 300;
     color: #fff;
 }
+
+#jinx-alegre {
+    weight: 500px;
+}
+
 
 /*=======
 RESPONSIVIDADE
