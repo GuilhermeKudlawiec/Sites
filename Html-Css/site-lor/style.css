@@ -172,10 +172,33 @@ strong {
     color: #fff;
 }
 
-#jinx-alegre {
-    weight: 500px;
+#container-card-nivel2 {
+    display: flex;
 }
 
+
+#caixa-de-informacao3 {
+    width: 50vw;
+    background-color: #000;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    position: relative;
+}
+
+#caixa-de-informacao3 > p {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+#container-jinx-alegre {
+    width: 50vw;
+}
+
+#jinx-alegre {
+    width: 100%;
+}
 
 /*=======
 RESPONSIVIDADE
