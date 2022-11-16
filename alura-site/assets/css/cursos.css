@@ -1,0 +1,192 @@
+.cursos {
+    color: #fff;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 200px);
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 0 6rem 0;
+    position: relative;
+}
+
+.cursos::after {
+    content: "";
+    background: url(https://www.alura.com.br/assets/img/home/homeNova/ilustra-alura-escafandro.1647533643.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 518px;
+    position: absolute;
+    top: -30px;
+    right: 80px;
+    width: 322px;
+}
+
+.cursos__titulo, .cursos__paragrafo {
+    grid-column: span 2;
+    margin-bottom: 2rem;
+}
+
+.cursos__titulo {
+    font-size: 5.6rem;
+}
+
+.cursos__paragrafo {
+    font-size: 1.8rem;
+    grid-column: 1 / 3;
+}
+
+.cursos__container {
+    background: #051933;
+    border: 1px solid #0c448c;
+    border-radius: 10px;
+    height: 208px;
+    padding: 19px;
+    z-index: 1;
+}
+
+.cursos__container--programacao, .cursos__container--dev-ops {
+    grid-column: 1 / 1;
+}
+
+.cursos__container-img {
+    background: #A3FFBF;    
+    border-radius: 5px;
+    padding: .2rem;
+    width: 40px;
+}
+
+.cursos__container-img img {
+    width: 100%;
+}
+
+.cursos__span {
+    color: #A3FFBF;
+    display: block;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 2rem 0 .5rem 0;
+    text-transform: none;
+}
+
+.cursos__titulo-cursos {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+
+.cursos__link {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.cursos__link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1280px) {
+    .cursos::after {
+        height: 470px;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    
+    .cursos {
+        grid-template-columns: repeat(4, 187px);
+        
+    }
+
+    .cursos::after {
+        top: 0;
+        right: -40px;
+    }
+    
+    .cursos__titulo {
+        font-size: 4.5rem;
+        grid-column: span 3;
+    }
+    
+    .cursos__paragrafo {
+        font-size: 2rem;
+        grid-column: span 3;
+    }
+
+    .cursos__span, .cursos__titulo-cursos {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 0 2rem;
+    }
+    
+    .cursos {
+        grid-template-columns: repeat(2, 34%);
+        grid-template-rows: repeat(4, auto);
+    }
+    .cursos::after {
+        background-size: contain;
+        height: 300px;
+        width: 200px;
+        right: 0;
+    }
+
+    .cursos__titulo {
+        font-size: 4rem;
+    }
+
+    .cursos__paragrafo {
+        font-size: 2rem;
+    }
+
+    .cursos__container {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .cursos__titulo, .cursos__paragrafo {
+        grid-column: 1 / 3;
+    }
+
+    .cursos__container-img, .cursos__link {
+        display: none;
+    }
+
+    .cursos__container--dev-ops {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .cursos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cursos__titulo, .cursos__paragrafo {
+        grid-column: 1 / -1;
+    }
+
+    .cursos__titulo {
+        font-size: 3.4rem;
+    }
+
+    .cursos__paragrafo {
+        font-size: 1.6rem;
+    }
+
+    .cursos::after {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .cursos {
+        grid-template-columns: repeat(2, minmax(138px,1fr));
+    }
+}

@@ -1,0 +1,134 @@
+.header {
+    background-image: url("https://www.alura.com.br/assets/img/home/luz-topo.1647533643.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 4rem;
+}
+
+.cabecalho {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.cabecalho__nav {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 3.6rem 0 0 0;
+}
+
+.cabecalho__logo {
+    height: 45px;
+    width: 95px;
+}
+
+.cabecalho__formulario {
+    width: 32%;
+    
+}
+
+.cabecalho__busca {
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    padding: 2rem 4rem;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho__lista {
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecalho__link {
+    color: #fff;
+    font-weight: 600;
+}
+
+.cabecalho__container-login {
+    align-items: center;
+    display: flex;
+}
+
+.cabecalho__link-login {
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    top: -3px;
+}
+
+.cabecalho__link-login::after {
+    content: "|";
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    position: relative;
+    top: 3px;
+
+}
+
+.cabecalho__botao {
+    background: #A3FFBF;
+    border-radius: 20px;
+    color: #051933;
+    font-weight: 600;
+    margin-left: 2.7rem;
+    padding: 2.0rem 5.2rem;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho__formulario {
+        width: 25%;
+    }
+
+    .cabecalho__busca {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    .cabecalho__botao {
+        padding: 1.2rem 3rem;
+    }
+
+    .cabecalho__busca {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .cabecalho__nav {
+        flex-wrap: wrap;
+    }
+
+    .cabecalho__formulario {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .cabecalho__formulario {
+        display: none;
+    }
+    
+    .cabecalho__lista {
+        border-top: 2px solid #FFF;
+        border-bottom: 2px solid #FFF;
+        justify-content: space-around;
+        order: 4;
+        padding: 1rem 0;
+        width: 100%;
+    }
+    
+    .cabecalho__container-login {
+        order: 3;
+    }
+
+}

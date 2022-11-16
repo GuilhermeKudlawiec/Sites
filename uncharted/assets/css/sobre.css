@@ -1,0 +1,62 @@
+.sobre {
+    color: #fff;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sobre__titulo {
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.sobre__container {
+    background: url(../img/o-que-e-uncharted/bg-vermelho.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.sobre__subtitulo {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.sobre__paragrafo {
+    font-size: 1.6rem;
+}
+
+.sobre img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .sobre {
+        gap: 0;
+        grid-template-columns: repeat(3, 196px);
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        gap: 2rem;
+        grid-template-columns: repeat(3, minmax(133px, 1fr));
+    }
+    .conteiner-all {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 567px) {
+    .sobre {
+        gap: 4rem;
+        grid-template-columns: 1fr;
+    }
+    .sobre img {
+        aspect-ratio: 16 / 9;
+    }
+}
