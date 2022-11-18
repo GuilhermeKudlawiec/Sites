@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.footer__container-atribuicoes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footer__container-autor {
+    align-items: center;
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .footer__container-atribuicoes {
+        width: 100%;
+    }
+
+    .footer__container-autor {
+        justify-content: center;
+        width: 100%;
+    }
+}
