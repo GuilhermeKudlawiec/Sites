@@ -114,6 +114,14 @@
 
 @media (max-width: 768px) {
     
+    .cabecalho__link-login::after {
+        display: none;
+    }
+    
+    .cabecalho__botao {
+        margin-left: 1rem;
+    }
+
     .cabecalho__formulario {
         display: none;
     }
@@ -130,5 +138,4 @@
     .cabecalho__container-login {
         order: 3;
     }
-
 }
