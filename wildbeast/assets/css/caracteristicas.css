@@ -1,0 +1,37 @@
+.caracteristicas  {
+    align-items: flex-start;
+    display: flex;
+}
+
+.caracteristicas__conteudo {
+    background: linear-gradient(135deg, #8844EE, #B07DFB);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+    position: relative;
+    text-align: center;
+    width: 80px;
+}
+
+.caracteristicas__conteudo:first-child {
+    margin-right: 30px;
+}
+
+.caracteristicas span {
+    display: block;
+}
+
+.caracteristicas__numero {
+    color: #B07DFB;
+    font-size: 3em;
+    line-height: 1;
+    margin: 10px auto;
+}
+
+.caracteristicas__rotulo {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    color: #B07DFB;
+    padding: 5px 0;
+    position: relative;
+    top: 2px;
+}

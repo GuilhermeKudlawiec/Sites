@@ -1,0 +1,7 @@
+.anuncios {
+    align-content: start;
+    background: #FAFBFC;
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+}

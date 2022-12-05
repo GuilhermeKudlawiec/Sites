@@ -1,0 +1,22 @@
+body, p, h1, ul, li, blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}

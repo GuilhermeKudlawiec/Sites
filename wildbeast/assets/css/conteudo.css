@@ -1,0 +1,80 @@
+.conteudo {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+h1 {
+    color: #B07DFB;
+    font-size: 3.75em;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.titulo-principal__desc {
+    color: #B07DFB;
+    font-size: 0.875em;
+    font-style: italic;
+}
+
+p {
+    color: rgba(0,0,0,.7);
+    font-size: 1.2em;
+    letter-spacing: -0.005em;
+    line-height: 1.6;
+}
+
+.lobo-uivando {
+    align-self: end;
+    grid-row: span 2;
+}
+
+.paragrafo-destaque {
+    color: #B07DFB;
+    font-size: 0.875em;
+    max-width: 16em;
+}
+
+.casal-de-lobos {
+    align-self: end;
+}
+
+.informacoes p + p {
+    margin-top: 30px;
+}
+
+.citacao, .lista-atributos {
+    background: linear-gradient(135deg, #8844EE, #B07DFB);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.15);
+    padding: 30px;
+}
+
+.citacao p {
+    color: #FFF;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.lista-atributos {
+    align-self: start;
+}
+
+.lista-atributos__item {
+    color: #FFF;
+    font-family: Courier, monospace;
+    font-size: 1.125em;
+    padding: 15px;
+}
+
+.lista-atributos__item + .lista-atributos__item {
+    border-top: 2px solid #B07DFB;
+} 
+
+ 
