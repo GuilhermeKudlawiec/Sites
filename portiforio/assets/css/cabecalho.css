@@ -26,7 +26,7 @@
     .cabecalho {
         background: var(--azul-escuro);
         border: none;
-        padding: 3.2rem 0 0 0;
+        padding: 2rem 0 0 0;
         position: static;
     }
 
