@@ -1,0 +1,39 @@
+.cabecalho {
+    background: rgba(196, 196, 196, 0.11);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.cabecalho__logo-img {
+    height: 9rem;
+}
+
+.cabecalho__lista {
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecalho__link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    
+    .cabecalho {
+        background: var(--azul-escuro);
+        border: none;
+        padding: 0;
+        position: static;
+    }
+
+    .cabecalho__nav {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 3.2rem 0;
+        width: 100%;
+    }
+}

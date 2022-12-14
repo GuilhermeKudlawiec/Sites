@@ -1,0 +1,42 @@
+.sobre-mim {
+    background: var(--azul-medio);
+}
+
+.sobre-mim__conteiner-texto {
+    width: 50%;
+}
+
+.sobre-mim__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 4.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.sobre-mim__texto {
+    text-align: justify;
+}
+
+.sobre-mim__texto + .sobre-mim__texto {
+    margin-top: 1.6rem;
+}
+
+.sobre-mim__imagem {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.429);
+    border-radius: 2rem;
+    width: 40.0rem;
+}
+
+@media (max-width: 1024px) {
+    .sobre-mim__imagem {
+        display: none;
+    }
+    .sobre-mim__conteiner-texto {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-mim__conteiner-texto {
+        width: 100%;
+    }
+}

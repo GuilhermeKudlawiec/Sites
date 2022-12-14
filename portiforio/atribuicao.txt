@@ -1,0 +1,27 @@
+Primeira imagem:
+
+<a href="https://www.flaticon.com/br/icones-gratis/programador" title="programador ícones">Programador ícones criados por Freepik - Flaticon</a>
+
+///
+
+Logo:
+
+<a href="https://www.flaticon.com/br/icones-gratis/seo-e-web" title="seo-e-web ícones">Seo-e-web ícones criados por Slidicon - Flaticon</a>
+
+///
+
+html:
+
+<a href="https://www.flaticon.com/br/icones-gratis/html" title="html ícones">Html ícones criados por Freepik - Flaticon</a>
+
+///
+
+css:
+
+<a href="https://www.flaticon.com/br/icones-gratis/css" title="css ícones">Css ícones criados por Pixel perfect - Flaticon</a>
+
+///
+
+js:
+
+<a href="https://www.flaticon.com/br/icones-gratis/javascript" title="javascript ícones">Javascript ícones criados por Freepik - Flaticon</a>

@@ -1,0 +1,75 @@
+.apresentacao {
+    background: linear-gradient(63.13deg, var(--azul-escuro) 51.04%, var(--azul) 51.05%);
+    padding: 0;
+}
+
+.apresentacao__texto {
+    font-size: 2.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.apresentacao__nome {
+    font-family: var(--fonte-titulo);
+    font-size: 4.3rem;
+    font-weight: 600;
+}
+
+.apresentacao__botao {
+    background: var(--azul);
+    border-radius: 2.0rem;
+    height: 8.5rem;
+    width: 100%;
+}
+
+.apresentacao__link {
+    align-items: center;
+    border-radius: 2rem;
+    display: flex;
+    font-size: 2.5rem;
+    height: 100%;
+    justify-content: center;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.apresentacao__link:hover {
+    background: var(--azul-agua);
+    color: var(--azul-escuro);
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+@keyframes desenhoAnimacao {
+    from {
+        top: -15px;
+    }
+    to {
+        top: 25px;
+    }
+}
+
+.apresentacao__img {
+    animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
+    border-radius: 2rem;
+    position: relative;
+    width: 35.0rem;
+    z-index: 0;
+}
+
+@media (max-width: 1024px) {
+    .apresentacao {
+        background: linear-gradient(to top, var(--azul-escuro), var(--azul));
+        padding: 3.2rem 0 6.4rem 0;
+    }
+
+    .apresentacao__container {
+        margin-top: 6.4rem;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .apresentacao {
+        padding: auto;
+    }
+}
