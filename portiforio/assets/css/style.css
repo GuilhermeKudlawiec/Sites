@@ -18,13 +18,13 @@ body {
     font-family: var(--fonte-principal);
 }
 
-section {
-    padding: 6.4rem 5.4rem;
-}
-
-h2 {
+h1, h2 {
     font-family: var(--fonte-titulo);
     font-size: 4.5rem;
+}
+
+section {
+    padding: 6.4rem 5.4rem;
 }
 
 a, p {

@@ -33,7 +33,7 @@
     .cabecalho__nav {
         display: flex;
         justify-content: center;
-        padding: 0 0 3.2rem 0;
+        padding: 3.2rem 0;
         width: 100%;
     }
 }

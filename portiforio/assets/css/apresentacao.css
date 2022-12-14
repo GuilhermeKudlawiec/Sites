@@ -16,7 +16,7 @@
 
 .apresentacao__botao {
     background: var(--azul);
-    border-radius: 2.0rem;
+    border-radius: 2rem;
     height: 8.5rem;
     width: 100%;
 }
@@ -53,7 +53,6 @@
     border-radius: 2rem;
     position: relative;
     width: 35.0rem;
-    z-index: 0;
 }
 
 @media (max-width: 1024px) {
