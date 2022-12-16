@@ -16,6 +16,7 @@ html {
 body {
     color: #fff;
     font-family: var(--fonte-principal);
+    overflow-x: hidden;
 }
 
 h1, h2 {
@@ -24,7 +25,7 @@ h1, h2 {
 }
 
 section {
-    padding: 6.4rem 5.4rem;
+    padding: 6.4rem 5.0rem;
 }
 
 a, p {
@@ -54,12 +55,11 @@ a, p {
     .organiza-container {
         flex-direction: column;
         justify-content: center;
-        
     }
 
     .organiza-container--apresentacao {
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 }
 

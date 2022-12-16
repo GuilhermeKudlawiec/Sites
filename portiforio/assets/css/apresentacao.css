@@ -1,6 +1,7 @@
 .apresentacao {
     background: linear-gradient(63.13deg, var(--azul-escuro) 51.04%, var(--azul) 51.05%);
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .apresentacao__texto {
@@ -10,7 +11,7 @@
 
 .apresentacao__nome {
     font-family: var(--fonte-titulo);
-    font-size: 4.3rem;
+    font-size: 4.2rem;
     font-weight: 600;
 }
 
@@ -58,17 +59,12 @@
 @media (max-width: 1024px) {
     .apresentacao {
         background: linear-gradient(to top, var(--azul-escuro), var(--azul));
-        padding: 3.2rem 0 6.4rem 0;
+        padding: 6.4rem 5.0rem;
     }
-
-    .apresentacao__container {
-        margin-top: 6.4rem;
-    }
-    
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .apresentacao {
-        padding: auto;
+        padding: 0 5.0rem;
     }
 }

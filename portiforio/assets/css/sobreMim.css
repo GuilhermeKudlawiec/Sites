@@ -7,7 +7,7 @@
 }
 
 .sobre-mim__titulo {
-    margin-bottom: 1.6rem;
+    margin-bottom: 3.2rem;
 }
 
 .sobre-mim__texto {
@@ -15,7 +15,7 @@
 }
 
 .sobre-mim__texto + .sobre-mim__texto {
-    margin-top: 1.6rem;
+    margin-top: 3.2rem;
 }
 
 .sobre-mim__imagem {
@@ -25,9 +25,15 @@
 }
 
 @media (max-width: 1024px) {
+    
+    .sobre-mim__titulo {
+        text-align: center;
+    }
+    
     .sobre-mim__imagem {
         display: none;
     }
+
     .sobre-mim__conteiner-texto {
         width: 80%;
     }
@@ -38,3 +44,4 @@
         width: 100%;
     }
 }
+

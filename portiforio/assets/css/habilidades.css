@@ -54,8 +54,8 @@
     }
 
     .habilidades__lista {
-        width: 100vw;
         justify-content: center;
+        width: 100vw;
     }
 }
 
