@@ -14,6 +14,10 @@
     text-align: justify;
 }
 
+.sobre-mim__link {
+   text-decoration: underline;
+}
+
 .sobre-mim__texto + .sobre-mim__texto {
     margin-top: 3.2rem;
 }
