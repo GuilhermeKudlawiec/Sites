@@ -33,13 +33,13 @@
     width: 10.0rem;
 }
 
-.habilidades p {
+.habilidades__p {
     font-size: 1.7rem;
     text-align: center;
     font-weight: 300;
 }
 
-.habilidades p + p {
+.habilidades__p + .habilidades__p {
     margin-top: 1rem;
 }
 
