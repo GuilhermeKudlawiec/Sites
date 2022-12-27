@@ -37,7 +37,7 @@
         grid-template-areas: 
         "header header header"
         "sidenav conteudo conteudo"
-        "sidenav anuncios anumcios"
+        "sidenav anuncios anuncios"
         "footer footer footer";
     }
 }
